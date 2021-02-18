@@ -1,0 +1,40 @@
+.selectBox{
+    margin : 0 auto; 
+    width: 400px;
+   
+}
+.teeth-range-segment-from-to{
+    display:flex; 
+   
+}
+
+.from-to-selectBox{
+    margin-left: 10px;   
+}
+
+
+label{
+    display: flex;  
+}
+
+.selectBox-with-ok-button{
+    display: flex;   
+}
+
+.select-box-heading{  
+    background-color:#1a8cff;
+    color:white;
+}
+
+.select-box-buttons{
+     margin-left:65px;
+     margin-top:10px;
+}
+
+.form-control{
+    /* width:250px */
+}
+
+.teeth-range-teeth-segment{
+    
+}

@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  float: center;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 75px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 75px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 100%;
+  display: block;
+}

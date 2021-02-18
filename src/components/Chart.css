@@ -1,0 +1,258 @@
+.all {
+  /* position:relative; */
+  width: 1181px;
+  /* height: 500px; */
+  /* text-align: center; */
+ 
+}
+.chart-sticky{
+   /* position: sticky !important;
+  top:0  !important; 
+   */
+}
+.teeth-plus-button {
+  /* position: absolute; */
+  background:white;
+  margin-left: 37px;
+  margin-top: 0px;
+  display: flex;
+  border: 2px groove; 
+  /* position: sticky !important;
+  top:0  !important; */
+  /* width: 1000px;  */
+}
+.canvas { 
+  
+   /* position: absolute;   
+   left: 17px;
+   top:196px; */
+   height:242px;
+   margin-left: 20px;
+   margin-top: -241px;
+   z-index: 1;
+}
+
+.log-table {
+  /* position: absolute; */
+  /* margin-left: 37px;
+  margin-top: 11px; */
+  /* min-width: 1200px; */
+ 
+  margin-left: 13px;
+    /* margin-top: -57px; */
+}
+
+.column {
+  /* display: table-cell; */
+  /* padding: 0.7%; */
+  padding: 0 5px 0px 5px;
+  min-width: 60px;
+  min-height: 120px;
+  /* button alignment depends on it */
+  position: relative;
+}
+
+/* padding-top
+padding-right
+padding-bottom
+padding-left */
+.row1 {
+  display: flex;
+  width: 35%;
+  padding-bottom: 20px;
+}
+
+.row2 {
+  display: flex;
+  width: 35%;
+}
+.button-column {
+  padding: 25%;
+  display: flex;
+  /* justify-content: center; */
+}
+.button-row {
+  /* display: flex; */
+  /* width: 30%;
+  margin-left: 2%; */
+  border: 2px groove; 
+}
+
+.disable-user-select {
+  /* user-select: none; */
+  pointer-events: none;
+}
+
+h3 {
+  text-align: center;
+}
+
+.teeth-1st-quadrant {
+  display: flex;
+}
+
+.teeth-2nd-quadrant {
+  display: flex;
+}
+.teeth-3rd-quadrant {
+  display: flex;
+}
+
+.teeth-4th-quadrant {
+  display: flex;
+}
+
+.active {
+  background-color: chartreuse;
+}
+
+.wire_button {
+  position: absolute;
+  right: -20%;
+  bottom: 5%;
+}
+
+.bracket_button {
+  position: absolute;
+  right: 30%;
+  bottom: 5%;
+}
+
+.chain_button {
+  position: absolute;
+  right: -20%;
+  bottom: 12%;
+}
+
+.lower_wire_button {
+  position: absolute;
+  right: -20%;
+  top: 5%;
+}
+
+.lower_bracket_button {
+  position: absolute;
+  right: 30%;
+  top: 5%;
+}
+
+.lower_chain_button {
+  position: absolute;
+  right: -20%;
+  top: 12%;
+}
+
+.visibility_hidden {
+  visibility: hidden;
+}
+
+.shadowChart {
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 1), 0 6px 20px 0 rgba(255, 0, 0, 1);
+}
+
+.vertical_scroll {
+  height: 362px;
+  width: 150px;
+  overflow-y: scroll;
+  /* border: 1px solid; */
+  /* border-left: groove; */
+  /* border-style: outset */
+}
+
+
+.canvas-parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  width:1040px
+}
+.canvas-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* border: 1px red solid; */
+  
+}
+
+/* used for hover text button  */
+.hide {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  bottom: -60px;
+  left: -60px;
+} 
+
+.button-column:hover .hide  {
+  display: block;
+  color: red;
+  position: relative;  
+}
+
+ /* Location of the pop up box */
+.select-box{
+  position: fixed;
+  z-index: 1;
+  /* padding-top: 300px; */
+  left: 450px;
+  top: 300px;
+  
+  /* background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);  */
+}
+
+.Loading-gif{
+  margin : 200px auto;
+  display: block;
+  
+}
+
+.log-table thead th {   
+  position: sticky;
+  top: 0;
+  background:white;
+}
+.vertical-scroll-log-table{
+  overflow-y: scroll;
+  width: 1167px;
+  height:500px;
+}
+
+.log-table-remarks{
+  display:flex
+}
+
+
+.modal-log-table {
+  display:none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.display-block{
+  display:block;
+}
+
+.visibility-hidden{
+  visibility:hidden;
+}
+
+.loading{
+  position: absolute;
+  top: 0;
+  left:469px;
+  z-index: 2;
+}
+
+.display-none{
+  display:none;
+}
+
