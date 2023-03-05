@@ -1047,8 +1047,8 @@ function Chart() {
 
   useEffect(() => {
     axios
-      // .post "http://ortho.zbapps.in/admin/api/log-update",
-      .post("https://apps.minmegam.com/ortho/admin/api/log-update", {
+      
+      .post("https://apps.test.com/ortho/admin/api/log-update", {
         patient_id: "4654546446",
         logs: log.logs,
       })
@@ -1062,7 +1062,7 @@ function Chart() {
 
   function logApiCall() {
     axios
-      .get("https://apps.minmegam.com/ortho/admin/api/log-list")
+      .get("https://apps.test.com/ortho/admin/api/log-list")
       .then(function (response: any) {
         // handle success
         setLog({ logs: response.data });
@@ -1080,7 +1080,7 @@ function Chart() {
 
   useEffect(() => {
     axios
-      .get("https://apps.minmegam.com/ortho/admin/api/allteeth-imgs")
+      .get("https://apps.test.com/ortho/admin/api/allteeth-imgs")
       .then(function (response: any) {
         // handle success
         setImage(response.data);

@@ -2,7 +2,7 @@
   "name": "chart-typescript",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://apps.minmegam.com/ortho/chart/",
+  "homepage":"https://apps.test.com/ortho/chart/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
